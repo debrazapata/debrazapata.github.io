@@ -20,6 +20,7 @@ nav ul {
 }
 nav ul li {
 	display: inline;
+	zoom:1;
 	list-style-type: none;
 	font-size: 13px;
 	padding: 7px 15px;
