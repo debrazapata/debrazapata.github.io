@@ -161,6 +161,8 @@ input#mail {
 	border: 1px solid #ccc;
 }
 input#submit {
+	-webkit-appearance: none;
+    -webkit-border-radius: 0;
 	background: #466fb0;
 	color: white;
 	padding: 10px;
