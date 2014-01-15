@@ -160,9 +160,11 @@ input#mail {
 	margin-bottom: 10px;
 	border: 1px solid #ccc;
 }
-input#submit {
+input#submit[type=submit]{
 	-webkit-appearance: none;
-    -webkit-border-radius: 0;
+    -webkit-border-radius: 0px;
+}
+input#submit {
 	background: #466fb0;
 	color: white;
 	padding: 10px;
