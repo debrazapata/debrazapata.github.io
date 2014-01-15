@@ -17,9 +17,9 @@ a:link {color:white;}
 
 nav ul {
 	text-align: right;
-	margin
 }
 nav ul li {
+	float: right;
 	display: inline;
 	zoom:1;
 	list-style-type: none;
@@ -28,11 +28,6 @@ nav ul li {
 	margin-left: 5px;
 	font-family: 'Helvetica Neue', sans-serif;
 	letter-spacing: 0.25px;
-}
-nav ul li a {
-	display: inline;
-	white-space: nowrap;
-	float: left;
 }
 #container {
 	height: 100%;
