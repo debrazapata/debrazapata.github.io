@@ -22,7 +22,6 @@ nav ul {
 nav ul li {
 	display: inline;
 	zoom:1;
-	float: left;
 	list-style-type: none;
 	font-size: 13px;
 	padding: 7px 15px;
@@ -30,10 +29,11 @@ nav ul li {
 	font-family: 'Helvetica Neue', sans-serif;
 	letter-spacing: 0.25px;
 }
-/*nav ul li a {
+nav ul li a {
 	display: inline;
 	white-space: nowrap;
-}*/
+	float: left;
+}
 #container {
 	height: 100%;
 }
