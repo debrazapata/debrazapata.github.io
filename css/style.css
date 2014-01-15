@@ -17,6 +17,7 @@ a:link {color:white;}
 
 nav ul {
 	text-align: right;
+	margin
 }
 nav ul li {
 	display: inline;
@@ -27,6 +28,10 @@ nav ul li {
 	margin-left: 5px;
 	font-family: 'Helvetica Neue', sans-serif;
 	letter-spacing: 0.25px;
+}
+nav ul li a {
+	display: inline;
+	white-space: nowrap;
 }
 #container {
 	height: 100%;
@@ -51,7 +56,6 @@ nav ul li {
 #logo {
 	float: left;
 	margin-top: -20px;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/logo.png");
 }
 #menu {
 	background-color: #15355c;
