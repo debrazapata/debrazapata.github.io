@@ -51,6 +51,7 @@ nav ul li {
 #logo {
 	float: left;
 	margin-top: -20px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/logo.png");
 }
 #menu {
 	background-color: #15355c;
