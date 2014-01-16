@@ -46,11 +46,15 @@ nav ul li {
 	background: #305078;
 	padding: 40px 20px 20px 20px;
 	font-size: 12px;
+	height: 80px;
 	width: 100%;
 }
 #logo {
 	float: left;
 	margin-top: -20px;
+}
+div#topnav{
+	float: right;
 }
 div#topnav li {
 	background: #15355c;
@@ -72,7 +76,7 @@ div#topnav li:hover{
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: orange;
+	color: yellow;
 }
 #services p {
 	margin: 20px 0px;
@@ -193,6 +197,9 @@ input#submit:hover{
 	color: #999;
 	letter-spacing: 0.25px;
 	float: left;
+}
+#bottomnav{
+	float: right;
 }
 
 @media only screen and (max-width: 1025px){
