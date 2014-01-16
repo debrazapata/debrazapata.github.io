@@ -13,7 +13,10 @@ body {
 	color: #555;
 }
 a{text-decoration: none;}
-a:link {color:white;} 
+a:link {color: white;} 
+a:visited {color: white;}
+a:hover {color: white;}
+a:active {color: white;}
 
 .float-right ul {
 	text-align: right;
@@ -28,6 +31,7 @@ a:link {color:white;}
 	margin-left: 5px;
 	font-family: 'Helvetica Neue', sans-serif;
 	letter-spacing: 0.25px;
+	overflow: hidden;
 }
 #container {
 	height: 100%;
@@ -62,9 +66,10 @@ ul#menu li {
 	border-radius: 5px;
 	behavior: url(PIE.htc);
 }
-ul#menu li:hover{
+ul#menu li:hover {
 	background-color: #5578a3;
 }
+
 .rounded {
 	border-radius: 5px;
 	behavior: url(PIE.htc);
@@ -82,7 +87,7 @@ ul#menu li:hover{
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: limegreen;
+	color: orange;
 }
 #services p {
 	margin: 20px 0px;
@@ -199,7 +204,7 @@ input#submit:hover{
 #footer a:link {
 	color: #466fb0;
 }
-#footer a:hover {
+#footer a:visited:hover {
 	color: #444;
 }
 #copyright{
