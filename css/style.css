@@ -59,13 +59,15 @@ div.float-right{
 }
 ul#menu li {
 	background-color: #15355c;
+	border-radius: 5px;
+	behavior: url(PIE.htc);
 }
 ul#menu li:hover{
 	background-color: #5578a3;
 }
 .rounded {
 	border-radius: 5px;
-	behavior: url(border-radius.htc);
+	behavior: url(PIE.htc);
 }
     
 /* Content */
