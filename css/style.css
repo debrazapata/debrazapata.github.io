@@ -24,7 +24,7 @@ a:active {color: white;}
 }
 .float-right ul li {
 	display: inline;
-	zoom:1;
+/*	zoom:1;*/
 	list-style-type: none;
 	font-size: 13px;
 	padding: 7px 15px;
@@ -184,7 +184,7 @@ input#submit[type=submit] {
 	font-size: 17px;
 	text-shadow: -1px -1px #305078;
 }
-input#submit:hover{
+input#submit[type=submit]:hover{
 	background-color: #305078;
 }
 
