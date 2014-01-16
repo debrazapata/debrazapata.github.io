@@ -52,23 +52,11 @@ nav ul li {
 	float: left;
 	margin-top: -20px;
 }
-#menu {
-	background-color: #15355c;
-	border-radius: 5px;
-	float: right;
-	width: 30px;
-	height: 30px;
-	padding: 10px 20px;
-	margin-bottom: 10px;
-	text-align: center;
-	color: white;
-	z-index: 1;
-}
-nav#topnav li {
+div#topnav li {
 	background: #15355c;
 	border-radius: 5px;
 }
-nav#topnav li:hover{
+div#topnav li:hover{
 	background: #5578a3;
 }
     
@@ -80,6 +68,7 @@ nav#topnav li:hover{
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
+	color: red;
 }
 #services p {
 	margin: 20px 0px;
