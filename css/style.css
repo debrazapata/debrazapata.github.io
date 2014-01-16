@@ -85,7 +85,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: gold;
+	color: blue;
 }
 #services p {
 	margin: 20px 0px;
@@ -185,7 +185,7 @@ input#submit[type=submit] {
 	font-size: 17px;
 	text-shadow: -1px -1px #305078;
 }
-input#submit[type=submit]:hover {
+input#submit[type=submit]:hover, input#submit[type=submit]:focus  {
 	background-color: #305078;
 }
 
