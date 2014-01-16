@@ -86,7 +86,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: gold;
+	color: teal;
 }
 #services p {
 	margin: 20px 0px;
@@ -177,8 +177,6 @@ input#submit[type=submit] {
 	-webkit-appearance: none;
 }
 input#submit[type=submit] {
-	/*border-radius: 5px;
-	behavior: url(border-radius.htc);*/
 	background-color: #466fb0;
 	color: white;
 	padding: 10px;
@@ -189,12 +187,6 @@ input#submit[type=submit] {
 }
 input#submit[type=submit]:hover  {
 	background-color: #305078;
-}
-input#submit {
-	background-color: #466fb0;
-}
-input#submit:hover {
-	background-color: #466fb0;
 }
 
 /* Footer */
