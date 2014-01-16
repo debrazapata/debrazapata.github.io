@@ -85,7 +85,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: magenta;
+	color: blue;
 }
 #services p {
 	margin: 20px 0px;
@@ -243,7 +243,7 @@ input#submit:hover {
 	}
 }
 @media only screen and (max-width: 530px){
-	#bottomnav ul li {
+	#topnav ul li, #bottomnav ul li {
 		padding: 7px 7px;
 	}
 }
