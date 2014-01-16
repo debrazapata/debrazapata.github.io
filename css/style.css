@@ -25,6 +25,7 @@ a:active {color: white;}
 .float-right ul li {
 	display: inline;
 	zoom: 1;
+	z-index: 1;
 	list-style-type: none;
 	font-size: 13px;
 	padding: 7px 15px;
@@ -32,6 +33,9 @@ a:active {color: white;}
 	font-family: 'Helvetica Neue', sans-serif;
 	letter-spacing: 0.25px;
 	overflow: hidden;
+}
+.float-right ul li a {
+	z-index: 2;
 }
 #container {
 	height: 100%;
@@ -85,7 +89,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: purple;
+	color: magenta;
 }
 #services p {
 	margin: 20px 0px;
@@ -134,18 +138,19 @@ ul#menu li:hover {
 	width: 300px;
 	padding: 20px;
 	margin-right: 0px;
-	border: none;
 	border-radius: 15px;
 	behavior: url(border-radius.htc);
 	font-size: 12px;
+	border: none;
+	box-shadow: none;
 }
 #formbox {
 	font-weight: bold;
 	background-color: #f0f3f7!important;
 	width: 300px;
-	border: 1px solid #ccc;
 	border-radius: 5px;
 	behavior: url(border-radius.htc);
+	border: 1px solid #ccc;
 	margin-top: 30px;
 	padding: 20px 10px 10px 10px;
 	font-family: Helvetica, sans-serif;
@@ -163,7 +168,6 @@ ul#menu li:hover {
 input {
 	border-radius: 5px;
 	behavior: url(border-radius.htc);
-	border: none;
 	width: 280px;
 }
 input#mail {
