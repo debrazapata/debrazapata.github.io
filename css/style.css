@@ -78,7 +78,7 @@ div#topnav li:hover{
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: teal;
+	color: orange;
 }
 #services p {
 	margin: 20px 0px;
@@ -133,6 +133,7 @@ div#topnav li:hover{
 }
 #formbox {
 	font-weight: bold;
+	background-color: #f0f3f7;
 	width: 300px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
