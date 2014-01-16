@@ -71,7 +71,7 @@ ul#menu li:hover {
 }*/
 
 li.rounded {
-	background-color: ##15355c;
+	background-color: #15355c;
 	border-radius: 5px;
 	behavior: url(PIE.htc);
 }
@@ -91,7 +91,7 @@ li.rounded:hover{
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: beige;
+	color: purple;
 }
 #services p {
 	margin: 20px 0px;
