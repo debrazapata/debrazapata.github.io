@@ -79,7 +79,7 @@ div#topnav li:hover{
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: pink;
+	color: red;
 }
 #services p {
 	margin: 20px 0px;
@@ -168,12 +168,12 @@ input#mail {
 input#submit[type=submit]{
 	-webkit-appearance: none;
 }
-input#submit {
+input#submit[type=submit] {
+	border-radius: 5px;
+	behavior: url(border-radius.htc);
 	background-color: #466fb0;
 	color: white;
 	padding: 10px;
-	border-radius: 5px;
-	behavior: url(border-radius.htc);
 	border: none;
 	width: 100%;
 	font-family: 'Times New Roman', serif;
