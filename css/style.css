@@ -85,7 +85,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: orange;
+	color: gold;
 }
 #services p {
 	margin: 20px 0px;
@@ -251,11 +251,13 @@ input#submit:hover {
 	#bottomnav {
 		display:none;
 	}
-	#logo, #topnav {
+	#logo, div.float-right {
 		float: none;
 	}
-	#topnav {
+	#topnav ul {
+		text-align: center;
 		width: 100%;
+		margin: 0 auto;
 	}
 	#topnav ul li {
 		float: none;
