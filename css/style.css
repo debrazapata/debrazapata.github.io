@@ -208,7 +208,7 @@ input#submit:hover{
 #footer a:link {
 	color: #466fb0;
 }
-#footer a:visited:hover {
+#footer a:visited, #footer a:hover {
 	color: #444;
 }
 #copyright{
