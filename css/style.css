@@ -81,6 +81,7 @@ div#topnav li:hover{
 	width: 65%;
 	min-width: 300px;
 	padding-right: 30px;
+	*width: 60%;
 }
 #leftcolumn h2 {
 	font-size: 22px;
