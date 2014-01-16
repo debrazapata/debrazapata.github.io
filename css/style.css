@@ -127,6 +127,7 @@ div#topnav li:hover{
 	padding: 20px;
 	margin-right: 0px;
 	border-radius: 15px;
+	*rounded-corner: 15px;
 	font-size: 12px;
 }
 #formbox {
