@@ -20,7 +20,7 @@ a:active {color: white;}
 
 .float-right ul {
 	text-align: right;
-	width: 350px;
+	width: 360px;
 }
 .float-right ul li {
 	display: inline;
@@ -85,7 +85,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: gold;
+	color: teal;
 }
 #services p {
 	margin: 20px 0px;
@@ -247,7 +247,7 @@ input#submit:hover {
 		padding: 7px 7px;
 	}
 }
-@media only screen and (max-width: 481px){
+@media handheld, screen and(max-width: 481px){
 	#bottomnav {
 		display:none;
 	}
