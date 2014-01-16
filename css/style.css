@@ -61,18 +61,22 @@ a:active {color: white;}
 div.float-right{
 	float: right;
 }
-ul#menu li {
+/*ul#menu li {
 	background-color: #15355c;
 	border-radius: 5px;
 	behavior: url(PIE.htc);
 }
 ul#menu li:hover {
 	background-color: #5578a3;
-}
+}*/
 
-.rounded {
+li.rounded {
+	background-color: ##15355c;
 	border-radius: 5px;
 	behavior: url(PIE.htc);
+}
+li.rounded:hover{
+	background-color: #5578a3;
 }
     
 /* Content */
