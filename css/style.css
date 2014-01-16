@@ -19,7 +19,6 @@ nav ul {
 	text-align: right;
 }
 nav ul li {
-	float: right;
 	display: inline;
 	zoom:1;
 	list-style-type: none;
@@ -81,7 +80,6 @@ nav#topnav li:hover{
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: purple;
 }
 #services p {
 	margin: 20px 0px;
