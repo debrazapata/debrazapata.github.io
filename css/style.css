@@ -57,13 +57,13 @@ a:link {color:white;}
 div.float-right{
 	float: right;
 }
-div#topnav li {
+div#topnav nav ul li {
 	background-color: #15355c;
 	border-radius: 5px;
 	behavior: url(border-radius.htc);
 	overflow: hidden;
 }
-div#topnav li:hover{
+div#topnav nav ul li:hover{
 	background-color: #5578a3;
 }
     
@@ -79,7 +79,7 @@ div#topnav li:hover{
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: red;
+	color: blue;
 }
 #services p {
 	margin: 20px 0px;
