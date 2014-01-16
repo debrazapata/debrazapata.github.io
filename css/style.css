@@ -66,7 +66,7 @@ div.float-right{
 	float: right;
 }
 ul#menu li {
-	background-color: #15355c;
+	background-color: #15355c!important;
 	position: relative;
 	border-radius: 5px;
 	behavior: url(border-radius.htc);
@@ -89,7 +89,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: magenta;
+	color: green;
 }
 #services p {
 	margin: 20px 0px;
