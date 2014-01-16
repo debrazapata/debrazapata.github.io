@@ -61,6 +61,7 @@ div#topnav li {
 	background: #15355c;
 	border-radius: 5px;
 	behavior: url(border-radius.htc);
+	overflow: hidden;
 }
 div#topnav li:hover{
 	background: #5578a3;
@@ -78,7 +79,7 @@ div#topnav li:hover{
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: orange;
+	color: green;
 }
 #services p {
 	margin: 20px 0px;
