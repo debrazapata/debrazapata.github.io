@@ -47,7 +47,7 @@ nav ul li {
 	background: #305078;
 	padding: 40px 20px 20px 20px;
 	font-size: 12px;
-	height: 80px;
+	overflow: hidden;
 	width: 100%;
 }
 #logo {
@@ -232,13 +232,17 @@ input#submit:hover{
 	#bottomnav {
 		display:none;
 	}
-	#logo {
+	#logo, #topnav {
 		float: none;
+	}
+	#topnav {
+		width: inherit;
 	}
 	#topnav ul li {
 		float: none;
 		display: list-item;
 		text-align: center;
 		margin-bottom: 5px;
+		margin-left: 0px;
 	}
 }
