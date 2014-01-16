@@ -134,6 +134,7 @@ ul#menu li:hover {
 	width: 300px;
 	padding: 20px;
 	margin-right: 0px;
+	border: none;
 	border-radius: 15px;
 	behavior: url(border-radius.htc);
 	font-size: 12px;
