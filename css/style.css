@@ -67,6 +67,7 @@ ul#menu li {
 	position: relative;
 	border-radius: 5px;
 	behavior: url(border-radius.htc);
+	border: none;
 }
 ul#menu li:hover {
 	background-color: #5578a3;
@@ -85,7 +86,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: green;
+	color: gold;
 }
 #services p {
 	margin: 20px 0px;
@@ -175,9 +176,9 @@ input#mail {
 input#submit[type=submit] {
 	-webkit-appearance: none;
 }
-input[type=submit]#submit {
-	border-radius: 5px;
-	behavior: url(border-radius.htc);
+input#submit[type=submit] {
+	/*border-radius: 5px;
+	behavior: url(border-radius.htc);*/
 	background-color: #466fb0;
 	color: white;
 	padding: 10px;
