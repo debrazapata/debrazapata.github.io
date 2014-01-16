@@ -86,7 +86,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: teal;
+	color: red;
 }
 #services p {
 	margin: 20px 0px;
@@ -131,7 +131,7 @@ ul#menu li:hover {
 	margin-bottom: 10px;
 }
 #info {
-	background-color: #e3edfa;
+	background-color: #e3edfa!important;
 	width: 300px;
 	padding: 20px;
 	margin-right: 0px;
@@ -142,7 +142,7 @@ ul#menu li:hover {
 }
 #formbox {
 	font-weight: bold;
-	background-color: #f0f3f7;
+	background-color: #f0f3f7!important;
 	width: 300px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
@@ -157,7 +157,7 @@ ul#menu li:hover {
 	font-size: 14px;
 	position: absolute;
 	top: -10px;
-	background-color: #f0f3f7;
+	background-color: #f0f3f7!important;
 	padding: 0px 5px;
 	margin-bottom: 5px;
 }
@@ -177,7 +177,7 @@ input#submit[type=submit] {
 	-webkit-appearance: none;
 }
 input#submit[type=submit] {
-	background-color: #466fb0;
+	background-color: #466fb0!important;
 	color: white;
 	padding: 10px;
 	border: none;
