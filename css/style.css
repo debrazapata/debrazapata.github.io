@@ -60,6 +60,7 @@ div.float-right{
 div#topnav li {
 	background: #15355c;
 	border-radius: 5px;
+	behavior: url(border-radius.htc);
 }
 div#topnav li:hover{
 	background: #5578a3;
@@ -127,7 +128,7 @@ div#topnav li:hover{
 	padding: 20px;
 	margin-right: 0px;
 	border-radius: 15px;
-	*rounded-corner: 15px;
+	behavior: url(border-radius.htc);
 	font-size: 12px;
 }
 #formbox {
@@ -135,6 +136,7 @@ div#topnav li:hover{
 	width: 300px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
+	behavior: url(border-radius.htc);
 	margin-top: 30px;
 	padding: 20px 10px 10px 10px;
 	font-family: Helvetica, sans-serif;
@@ -151,6 +153,7 @@ div#topnav li:hover{
 }
 input {
 	border-radius: 5px;
+	behavior: url(border-radius.htc);
 	border: none;
 	width: 100%;
 }
@@ -168,6 +171,7 @@ input#submit {
 	color: white;
 	padding: 10px;
 	border-radius: 5px;
+	behavior: url(border-radius.htc);
 	border: none;
 	width: 100%;
 	font-family: 'Times New Roman', serif;
