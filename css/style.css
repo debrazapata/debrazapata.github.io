@@ -17,7 +17,7 @@ a:link {color:white;}
 
 nav ul {
 	text-align: right;
-	display: inline;
+	width: 345px;
 }
 nav ul li {
 	display: inline;
