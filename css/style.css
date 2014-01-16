@@ -79,7 +79,7 @@ div#topnav li:hover{
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: green;
+	color: pink;
 }
 #services p {
 	margin: 20px 0px;
@@ -169,7 +169,7 @@ input#submit[type=submit]{
 	-webkit-appearance: none;
 }
 input#submit {
-	background: #466fb0;
+	background-color: #466fb0;
 	color: white;
 	padding: 10px;
 	border-radius: 5px;
@@ -181,7 +181,7 @@ input#submit {
 	text-shadow: -1px -1px #305078;
 }
 input#submit:hover{
-	background: #305078;
+	background-color: #305078;
 }
 
 /* Footer */
