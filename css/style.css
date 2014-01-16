@@ -25,7 +25,6 @@ a:active {color: white;}
 .float-right ul li {
 	display: inline;
 	zoom: 1;
-	z-index: 1;
 	list-style-type: none;
 	font-size: 13px;
 	padding: 7px 15px;
@@ -86,7 +85,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: red;
+	color: purple;
 }
 #services p {
 	margin: 20px 0px;
@@ -240,7 +239,7 @@ input#submit[type=submit]:hover  {
 		padding: 7px 7px;
 	}
 }
-@media (max-width: 481px){
+@media only screen and (max-width: 481px){
 	#bottomnav {
 		display:none;
 	}
