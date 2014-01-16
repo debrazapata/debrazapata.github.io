@@ -15,11 +15,11 @@ body {
 a{text-decoration: none;}
 a:link {color:white;} 
 
-nav ul {
+.float-right ul {
 	text-align: right;
 	width: 350px;
 }
-nav ul li {
+.float-right ul li {
 	display: inline;
 	zoom:1;
 	list-style-type: none;
@@ -54,7 +54,7 @@ nav ul li {
 	float: left;
 	margin-top: -20px;
 }
-div#topnav{
+div.float-right{
 	float: right;
 }
 div#topnav li {
@@ -199,7 +199,7 @@ input#submit:hover{
 	letter-spacing: 0.25px;
 	float: left;
 }
-#bottomnav{
+#bottomnav {
 	float: right;
 }
 
