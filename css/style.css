@@ -6,7 +6,7 @@
 	box-sizing: border-box;			/* Opera */
 }
 body {
-	background: #f0f3f7;
+	background-color: #f0f3f7;
 	font-family: Helvetica, sans-serif;
 	font-size: 13px;
 	line-height: 150%;
@@ -44,7 +44,7 @@ a:link {color:white;}
 
 /* Header */
 #header {
-	background: #305078;
+	background-color: #305078;
 	padding: 40px 20px 20px 20px;
 	font-size: 12px;
 	overflow: hidden;
@@ -58,13 +58,13 @@ div.float-right{
 	float: right;
 }
 div#topnav li {
-	background: #15355c;
+	background-color: #15355c;
 	border-radius: 5px;
 	behavior: url(border-radius.htc);
 	overflow: hidden;
 }
 div#topnav li:hover{
-	background: #5578a3;
+	background-color: #5578a3;
 }
     
 /* Content */
@@ -124,7 +124,7 @@ div#topnav li:hover{
 	margin-bottom: 10px;
 }
 #info {
-	background: #e3edfa;
+	background-color: #e3edfa;
 	width: 300px;
 	padding: 20px;
 	margin-right: 0px;
@@ -186,7 +186,7 @@ input#submit:hover{
 
 /* Footer */
 #footer {
-	background: white;
+	background-color: white;
 	padding: 20px;
 	border-top: 2px solid #d1dae6;
 	position: absolute;
