@@ -85,7 +85,7 @@ ul#menu li:hover {
 	font-family: 'Times New Roman', serif;
 	font-size: 28px;
 	margin-top: 60px;
-	color: seagreen;
+	color: gold;
 }
 #services p {
 	margin: 20px 0px;
@@ -163,7 +163,7 @@ input {
 	border-radius: 5px;
 	behavior: url(border-radius.htc);
 	border: none;
-	width: 100%;
+	width: 280px;
 }
 input#mail {
 	height: 28px;
@@ -171,7 +171,7 @@ input#mail {
 	margin-bottom: 10px;
 	border: 1px solid #ccc;
 }
-input#submit[type=submit]{
+input#submit[type=submit] {
 	-webkit-appearance: none;
 }
 input#submit[type=submit] {
@@ -181,12 +181,11 @@ input#submit[type=submit] {
 	color: white;
 	padding: 10px;
 	border: none;
-	width: 100%;
 	font-family: 'Times New Roman', serif;
 	font-size: 17px;
 	text-shadow: -1px -1px #305078;
 }
-input#submit[type=submit]:hover{
+input#submit[type=submit]:hover {
 	background-color: #305078;
 }
 
@@ -232,7 +231,7 @@ input#submit[type=submit]:hover{
 		margin-top: 20px;
 		margin-left: 0px;
 	}
-	#info, #formbox {
+	#info, #formbox, input {
 		width: 100%;
 	}
 }
