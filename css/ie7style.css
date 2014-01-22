@@ -1,0 +1,44 @@
+/* IE7 Styles */
+
+
+/* Header */
+
+ul#menu li {
+	background-color: #15355c!important;
+	behavior: url(border-radius.htc);
+	border-radius: 5px;
+	border: none;
+}
+ul#menu li:hover {
+	background-color: #5578a3!important;
+}
+
+/* Content */
+
+#info {
+	background-color: #e3edfa!important;
+	behavior: url(border-radius.htc);
+	border-radius: 15px;
+}
+#formbox {
+	background-color: #f0f3f7!important;
+}
+#formbox h5 {
+	background-color: #f0f3f7!important;
+}
+input {
+	behavior: url(border-radius.htc);
+	border-radius: 5px;
+}
+input#mail {
+	background-color: white!important;
+}
+input#submit[type=submit] {
+	-webkit-appearance: none;
+}
+input#submit[type=submit] {
+	background-color: #466fb0!important;
+}
+input#submit[type=submit]:hover  {
+	background-color: #305078!important;
+}
