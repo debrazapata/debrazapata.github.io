@@ -200,9 +200,16 @@ input#submit[type=submit]:hover  {
 #footer a:link {
 	color: #466fb0;
 }
-#footer a:visited, #footer a:hover {
+#footer a:visited {
 	color: #444;
 }
+#footer a:hover {
+	color: #444;
+}
+#footer a:active {
+	color: #444;
+}
+
 #copyright{
 	font-family: Arial, sans-serif;
 	font-weight: 200;
